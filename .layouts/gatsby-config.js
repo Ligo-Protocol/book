@@ -1,12 +1,10 @@
 const path = require("path");
 const pathPrefix = "/";
 const siteMetadata = {
-  title: "Obsidian Template for Gatsby Theme Primer Wiki",
-  shortName: "Wiki",
-  description:
-    "Another Obsidian template that use gatsby-theme-primer-wiki, Welcome to your new Obsidian Knowledge Base!",
-  twitterName: "theowenyoung",
-  imageUrl: "/graph-visualisation.jpg",
+  title: "Ligo Protocol",
+  shortName: "Ligo Protocol",
+  description: "A protocol for car sharing agreements",
+  twitterName: "codynhat",
   siteUrl: "https://demo-obsidian.owenyoung.com",
 };
 module.exports = {
@@ -27,18 +25,7 @@ module.exports = {
     {
       resolve: "gatsby-theme-primer-wiki",
       options: {
-        nav: [
-          {
-            title: "Github",
-            url: "https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki/",
-          },
-          {
-            title: "Twitter",
-            url: "https://twitter.com/theowenyoung",
-          },
-        ],
-        editUrl:
-          "https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki/tree/main/",
+        nav: [],
       },
     },
     {
@@ -61,13 +48,6 @@ module.exports = {
         host: siteMetadata.siteUrl,
         sitemap: `${siteMetadata.siteUrl}/sitemap/sitemap-index.xml`,
         policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [],
       },
     },
   ],
