@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop -H 0.0.0.0",
-    "start": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
@@ -13,11 +13,7 @@
   },
   "dependencies": {
     "gatsby": "4.6.0",
-    "gatsby-plugin-manifest": "^4.11.1",
-    "gatsby-plugin-robots-txt": "^1.7.0",
-    "gatsby-plugin-sitemap": "^5.11.1",
-    "gatsby-source-filesystem": "^4.11.1",
-    "gatsby-theme-primer-wiki": "^2.0.5",
+    "gatsby-theme-kb": "^0.9.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   }
