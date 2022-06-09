@@ -13,7 +13,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -52,10 +52,10 @@ const config = {
     ({
       navbar: {
         title: "Ligo Protocol",
-        logo: {
-          alt: "Ligo Protocol Logo",
-          src: "img/logo.svg",
-        },
+        // logo: {
+        //   alt: "Ligo Protocol Logo",
+        //   src: "img/logo.svg",
+        // },
       },
       footer: {
         style: "dark",
