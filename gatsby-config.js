@@ -17,7 +17,7 @@ module.exports = {
       options: {
         contentPath: path.resolve(__dirname, "content"),
         rootNote: "Booking",
-        wikiLinkLabelTemplate: "[[{{ title }}]]",
+        wikiLinkLabelTemplate: "{{ title }}",
         getPluginMdx(defaultPluginMdx) {
           // customise pre-configured `gatsby-plugin-mdx`, for example:
           // defaultPluginMdx.options.gatsbyRemarkPlugins.push({
