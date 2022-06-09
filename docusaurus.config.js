@@ -60,7 +60,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cody Hatfield (@codynhat)`,
       },
       prism: {
         theme: lightCodeTheme,
