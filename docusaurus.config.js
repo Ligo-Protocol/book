@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const wikiLinkPlugin = require("remark-wiki-link");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,6 +29,16 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
+          remarkPlugins: [
+            [
+              wikiLinkPlugin,
+              {
+                pageResolver: (name) => [name],
+                hrefTemplate: (permalink) => `${permalink}`,
+              },
+            ],
+          ],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -45,14 +56,6 @@ const config = {
           alt: "Ligo Protocol Logo",
           src: "img/logo.svg",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "Booking",
-            position: "left",
-            label: "Whitepaper",
-          },
-        ],
       },
       footer: {
         style: "dark",
