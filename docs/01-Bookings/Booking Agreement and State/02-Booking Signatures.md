@@ -5,10 +5,12 @@ prev: [[Booking as a Ceramic Doc]]
 ---
 
 Both the agreement and most of the state are private, encrypted DAG-JOSE IPFS objects.
-![[202205101719 Booking and Agreement State IPFS.excalidraw]]
+
+![Booking and Agreement State IPFS.excalidraw](../../drawings/Booking%20and%20Agreement%20State%20IPFS.excalidraw.svg)
+
 The public state stored in the Gnosis Safe holds an immutable pointer to the off-chain private state. Any changes to the private state or agreement requires a signature from both parties to be sent to the Gnosis Safe.
 
-![[202205101726 Gnosis Safe IPFS Agreements.excalidraw]]
+![Gnosis Safe IPFS Agreements.excalidraw](../../drawings/Gnosis%20Safe%20IPFS%20Agreements.excalidraw.svg)
 
 ## Open Questions
 - Offline capability

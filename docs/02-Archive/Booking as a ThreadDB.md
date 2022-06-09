@@ -1,8 +1,9 @@
 ---
 title: "Booking as a ThreadDB"
 up: [[Booking]]
+tags:
+  - archive
 ---
-#archive
 
 A booking could be a ThreadDB that is shared between peers.
 

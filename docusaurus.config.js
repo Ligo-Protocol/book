@@ -21,7 +21,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  staticDirectories: ["docs/drawings"],
   presets: [
     [
       "classic",
@@ -30,6 +30,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
+          exclude: ["drawings/*"],
           remarkPlugins: [
             [
               wikiLinkPlugin,

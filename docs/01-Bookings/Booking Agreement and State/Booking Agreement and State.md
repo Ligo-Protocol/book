@@ -2,8 +2,9 @@
 title: "Booking Agreement and State"
 up: [[Booking]]
 ---
-![[202205031402 Booking Agreement and State 1.excalidraw]]
-![[202205101719 Booking and Agreement State IPFS.excalidraw]]
+
+![Booking Agreement and State 1.excalidraw](../../drawings/Booking%20Agreement%20and%20State%201.excalidraw.svg)
+![Booking and Agreement State IPFS.excalidraw](../../drawings/Booking%20and%20Agreement%20State%20IPFS.excalidraw.svg)
 
 The _state_ of a booking contains information needed to exchange value and services.
 
@@ -15,12 +16,10 @@ The agreement may define how changes in one state lead to changes in another sta
 Source of truth for `mileage` is Smartcar -> If `mileage` > 1000 -> $50 is deducted from `balances`
 ```
 
-```breadcrumbs
-type: tree
-dir: down
-title: false
-from: !#archive
-```
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
 
 ## Disputes
 
@@ -34,4 +33,4 @@ from: !#archive
 [[202102151609 Car Sharing Subjective Rules]] There are some state changes that are more subjective, say how clean the car is.
 
 ## Archive
-![[2021-03-08-3.jpeg]]
+[2021-03-08-3](../../drawings/2021-03-08-3.jpeg)
