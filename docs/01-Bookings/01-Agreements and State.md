@@ -27,8 +27,8 @@ Source of truth for `mileage` is Smartcar -> If `mileage` > 1000 -> $50 is deduc
 - Parties may disagree that the fee was $50
 
 ---
-
-## Archive
+## Appendix
+### Archive
 - [Booking as a ThreadDB](../03-Archive/Booking%20as%20a%20ThreadDB.md)
 - [Booking as a Ceramic Doc](../03-Archive/Booking%20as%20a%20Ceramic%20Doc.md)
 - [2021-03-08-3](../../drawings/2021-03-08-3.jpeg)

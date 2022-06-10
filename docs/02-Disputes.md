@@ -36,13 +36,14 @@ In many scenarios, the state changes can be so well-defined and objective that i
 
 ---
 
-## To Do
+## Appendix
+### To Do
 - [ ] Add examples of subjective and objective cases
 - [ ] Describe the process of filing a dispute
 - [ ] Describe different types of oracles
 - [ ] Diagram state changes
 - [ ] Diagram a dispute
 
-## Archive
+### Archive
 - [Objective Rules](./Archive/Objective%20Rules)
 - [Subjective Rules](./Archive/Subjective%20Rules)

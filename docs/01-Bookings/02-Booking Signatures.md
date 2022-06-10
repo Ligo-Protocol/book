@@ -10,7 +10,9 @@ The public state stored in the Gnosis Safe holds an immutable pointer to the off
 
 ![Gnosis Safe IPFS Agreements.excalidraw](../drawings/Gnosis%20Safe%20IPFS%20Agreements.excalidraw.svg)
 
-## Open Questions
+---
+## Appendix
+### Open Questions
 - Offline capability
 	- Could the transaction be executed later?
 		- Either party can execute
