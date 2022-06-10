@@ -1,6 +1,7 @@
 ---
 title: "Subjective Rules"
-up: [[Dispute Resolution]]
+tags:
+  - "archive"
 ---
 
 There are inherently some rules that are not objective and cannot be determined by computers alone.

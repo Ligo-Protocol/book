@@ -1,6 +1,7 @@
 ---
 title: "Objective Rules"
-up: [[Dispute Resolution]]
+tags:
+  - "archive"
 ---
 
 What rules _can_ a smart contract enforce? **Objective** rules.
