@@ -101,7 +101,7 @@ function DocItemContent(props) {
             theme="light"
             lang="en"
             loading="lazy"
-            mapping="url"
+            mapping="title"
             async
           />
         </div>
