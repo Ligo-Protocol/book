@@ -45,5 +45,5 @@ In many scenarios, the state changes can be so well-defined and objective that i
 - [ ] Diagram a dispute
 
 ### Archive
-- [Objective Rules](./Archive/Objective%20Rules)
-- [Subjective Rules](./Archive/Subjective%20Rules)
+- [Objective Rules](04-Archive/Objective%20Rules.md)
+- [Subjective Rules](04-Archive/Subjective%20Rules.md)
