@@ -6,9 +6,13 @@ Both the agreement and most of the state are private, encrypted [DAG-JOSE](https
 
 ![Booking and Agreement State IPFS.excalidraw](../drawings/Booking%20and%20Agreement%20State%20IPFS.excalidraw.svg)
 
-The public state stored in the Gnosis Safe holds an immutable pointer to the off-chain private state. Any changes to the private state or agreement requires a signature from both parties to be sent to the Gnosis Safe.
+The public state stored in the Gnosis Safe holds a pointer to the off-chain private state. Any changes to the private state or agreement requires a signature from both parties to be sent to the Gnosis Safe.
 
 ![Gnosis Safe IPFS Agreements.excalidraw](../drawings/Gnosis%20Safe%20IPFS%20Agreements.excalidraw.svg)
+
+The pointers to the state and agreement are IPLD CIDs (content identifiers) that are stored in a [Safe Module](https://docs.gnosis-safe.io/contracts/modules-1).
+
+![Booking Signature Module.excalidraw](../drawings/Booking%20Signature%20Module.excalidraw.svg)
 
 ---
 ## Appendix
