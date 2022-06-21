@@ -15,6 +15,7 @@ The host will need a [Decentralized Identifier (DID)](https://www.w3.org/TR/did-
 ### Open Questions
 - What `family` and `tags` should the documents have?
 - Ceramic is working on an indexing solution that will help discover these listings
+- Ceramic is working on a new stream type to replace TileDocument, but will be very similar
 
 ### To Do
 - [ ] Define schema
