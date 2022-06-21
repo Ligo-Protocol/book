@@ -1,6 +1,6 @@
 ---
 title: "Agreements and State"
-alias: 
+alias:
   - "booking"
   - "bookings"
 ---
@@ -20,7 +20,8 @@ The agreement may define how changes in one state lead to changes in another sta
 Source of truth for `mileage` is Smartcar -> If `mileage` > 1000 -> $50 is deducted from `balances`
 ```
 
-[Disputes](../03-Enforcing%20Agreements/01-Dispute%20Types.md) can be made at any _state change_ to a booking. In this example:
+[Disputes](../03-Enforcing%20Agreements/01-Disputes.md) can be made at any _state change_ to a booking. In this example:
+
 - Parties may disagree on the `mileage` that Smartcar says
 - Parties may disagree that the mileage limit was 1000
 - Parties may disagree that the fee was $50
