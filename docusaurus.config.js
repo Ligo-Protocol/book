@@ -9,7 +9,7 @@ const wikiLinkPlugin = require("remark-wiki-link");
 const config = {
   title: "Ligo Protocol",
   tagline: "A protocol for car sharing agreements",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://ligo-book.codyhatfield.me",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
