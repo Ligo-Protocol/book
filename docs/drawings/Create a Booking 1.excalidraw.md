@@ -17,7 +17,7 @@ Public State
 
 Gnosis Safe ^tnTA6bAt
 
-Agreement
+LigoAgreement
  ^9SVkb13I
 
 IPFS DAG-JOSE ^GPF5Xqbu
@@ -164,7 +164,7 @@ Deposit funds ^ovhsVDvH
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 87,
-			"height": 18,
+			"height": 19,
 			"seed": 905878692,
 			"groupIds": [
 				"G5kC4gKeVD-Jy4rNa_vMd"
@@ -224,8 +224,8 @@ Deposit funds ^ovhsVDvH
 		},
 		{
 			"type": "text",
-			"version": 612,
-			"versionNonce": 1587583652,
+			"version": 616,
+			"versionNonce": 692743228,
 			"isDeleted": false,
 			"id": "9SVkb13I",
 			"fillStyle": "hachure",
@@ -246,18 +246,18 @@ Deposit funds ^ovhsVDvH
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655169678696,
+			"updated": 1660598363427,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Agreement\n",
-			"rawText": "Agreement\n",
+			"text": "LigoAgreement\n",
+			"rawText": "LigoAgreement\n",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "BpVtkHzW5atdrFamvkKAo",
-			"originalText": "Agreement\n"
+			"originalText": "LigoAgreement\n"
 		},
 		{
 			"type": "text",
@@ -635,7 +635,7 @@ Deposit funds ^ovhsVDvH
 			"y": -150.11224683059572,
 			"strokeColor": "#000000",
 			"backgroundColor": "#15aabf",
-			"width": 158,
+			"width": 159,
 			"height": 20,
 			"seed": 1948346276,
 			"groupIds": [],

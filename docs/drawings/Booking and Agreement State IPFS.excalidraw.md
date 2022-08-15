@@ -8,7 +8,7 @@ tags: [excalidraw]
 
 
 # Text Elements
-Agreement
+LigoAgreement
 
 - Defines how state can change ^jx7cl19y
 
@@ -41,8 +41,8 @@ Gnosis Safe ^GyOkVGxV
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 279,
-			"versionNonce": 1200313582,
+			"version": 280,
+			"versionNonce": 148648892,
 			"isDeleted": false,
 			"id": "rQduINMY4afILivOt4lJ0",
 			"fillStyle": "hachure",
@@ -51,7 +51,7 @@ Gnosis Safe ^GyOkVGxV
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -62.09538327730621,
+			"x": -62.21647702730621,
 			"y": -243.4337344699436,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
@@ -66,14 +66,14 @@ Gnosis Safe ^GyOkVGxV
 					"type": "text"
 				}
 			],
-			"updated": 1652228464760,
+			"updated": 1660598340038,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 290,
-			"versionNonce": 1228093682,
+			"version": 297,
+			"versionNonce": 656528388,
 			"isDeleted": false,
 			"id": "jx7cl19y",
 			"fillStyle": "hachure",
@@ -82,28 +82,28 @@ Gnosis Safe ^GyOkVGxV
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -57.09538327730621,
+			"x": -57.21647702730621,
 			"y": -238.4337344699436,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 318,
-			"height": 72,
+			"height": 75,
 			"seed": 237456110,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1652228464760,
+			"updated": 1660598342155,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Agreement\n\n- Defines how state can change",
-			"rawText": "Agreement\n\n- Defines how state can change",
-			"baseline": 65,
+			"text": "LigoAgreement\n\n- Defines how state can change",
+			"rawText": "LigoAgreement\n\n- Defines how state can change",
+			"baseline": 68,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "rQduINMY4afILivOt4lJ0",
-			"originalText": "Agreement\n\n- Defines how state can change"
+			"originalText": "LigoAgreement\n\n- Defines how state can change"
 		},
 		{
 			"type": "text",
@@ -121,7 +121,7 @@ Gnosis Safe ^GyOkVGxV
 			"y": -271.1495433383518,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 131,
+			"width": 132,
 			"height": 20,
 			"seed": 1123656434,
 			"groupIds": [],
@@ -323,7 +323,7 @@ Gnosis Safe ^GyOkVGxV
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 301,
-			"height": 24,
+			"height": 25,
 			"seed": 452250030,
 			"groupIds": [
 				"k5NoewStj9GQSC3f774AW",
@@ -339,7 +339,7 @@ Gnosis Safe ^GyOkVGxV
 			"fontFamily": 1,
 			"text": "State",
 			"rawText": "State",
-			"baseline": 16,
+			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "F3yGFkSm8S3jRpfjyOXsL",
@@ -399,7 +399,7 @@ Gnosis Safe ^GyOkVGxV
 			"y": -199.87650341457794,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 119,
+			"width": 120,
 			"height": 19,
 			"seed": 961242094,
 			"groupIds": [
@@ -461,8 +461,8 @@ Gnosis Safe ^GyOkVGxV
 		},
 		{
 			"type": "text",
-			"version": 250,
-			"versionNonce": 1941501614,
+			"version": 251,
+			"versionNonce": 208075580,
 			"isDeleted": false,
 			"id": "23nclkCs",
 			"fillStyle": "hachure",
@@ -476,7 +476,7 @@ Gnosis Safe ^GyOkVGxV
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 105,
-			"height": 83,
+			"height": 84,
 			"seed": 2119480878,
 			"groupIds": [
 				"eVAMJ8uD-LR_ygsoKXRmm",
@@ -484,14 +484,14 @@ Gnosis Safe ^GyOkVGxV
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1652228452333,
+			"updated": 1660598336735,
 			"link": null,
 			"locked": false,
 			"fontSize": 16.19528578545118,
 			"fontFamily": 1,
 			"text": "Public State\n\n- Funds\n- Identities",
 			"rawText": "Public State\n\n- Funds\n- Identities",
-			"baseline": 77,
+			"baseline": 78,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "z0iJTLsqicNJRKsdUqIy9",
@@ -537,8 +537,8 @@ Gnosis Safe ^GyOkVGxV
 		},
 		{
 			"type": "text",
-			"version": 176,
-			"versionNonce": 587329774,
+			"version": 177,
+			"versionNonce": 1612937092,
 			"isDeleted": false,
 			"id": "5ILLS3wO",
 			"fillStyle": "hachure",
@@ -552,7 +552,7 @@ Gnosis Safe ^GyOkVGxV
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 124,
-			"height": 79,
+			"height": 80,
 			"seed": 1928970350,
 			"groupIds": [
 				"eVAMJ8uD-LR_ygsoKXRmm",
@@ -560,14 +560,14 @@ Gnosis Safe ^GyOkVGxV
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1652228452333,
+			"updated": 1660598336735,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
 			"text": "Private State\n\n- All other \nstate",
 			"rawText": "Private State\n\n- All other state",
-			"baseline": 73,
+			"baseline": 74,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "igIGMa181gszHT7Hlgu0E",
@@ -589,7 +589,7 @@ Gnosis Safe ^GyOkVGxV
 			"y": -199.5408710903592,
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
-			"width": 88,
+			"width": 87,
 			"height": 19,
 			"seed": 584271218,
 			"groupIds": [
@@ -747,8 +747,8 @@ Gnosis Safe ^GyOkVGxV
 		},
 		{
 			"type": "arrow",
-			"version": 152,
-			"versionNonce": 577071666,
+			"version": 156,
+			"versionNonce": 928114436,
 			"isDeleted": false,
 			"id": "ZXWUSTL-zjq-Ek0V6SaVG",
 			"fillStyle": "hachure",
@@ -758,29 +758,29 @@ Gnosis Safe ^GyOkVGxV
 			"opacity": 100,
 			"angle": 0,
 			"x": -273.7976447211372,
-			"y": -87.51394683186265,
+			"y": -87.5139468318627,
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "#fd7e14",
 			"width": 25.001729329427064,
-			"height": 49.666441821166416,
+			"height": 49.66644182116637,
 			"seed": 1473384690,
 			"groupIds": [
 				"1gwseQGpWauymXllnq-WC"
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1652228452420,
+			"updated": 1660598336735,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "z0iJTLsqicNJRKsdUqIy9",
-				"focus": 0.9433246990145676,
-				"gap": 4.056236527923886
+				"gap": 4.056236527923886,
+				"focus": 0.9433246990145676
 			},
 			"endBinding": {
 				"elementId": "igIGMa181gszHT7Hlgu0E",
-				"focus": 0.8064398950468125,
-				"gap": 1.4862235957740495
+				"gap": 1.4862235957740495,
+				"focus": 0.8064398950468125
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -792,7 +792,7 @@ Gnosis Safe ^GyOkVGxV
 				],
 				[
 					25.001729329427064,
-					-49.666441821166416
+					-49.66644182116637
 				]
 			]
 		}

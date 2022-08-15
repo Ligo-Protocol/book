@@ -17,7 +17,7 @@ Public State
 
 Gnosis Safe ^TID6l4w6
 
-Agreement
+LigoAgreement
  ^QtdhRk3j
 
 IPFS DAG-JOSE ^yZqI6uPC
@@ -178,7 +178,7 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 87,
-			"height": 18,
+			"height": 19,
 			"seed": 887570204,
 			"groupIds": [
 				"XHDcpT-eG5QMYge0R6Uk6"
@@ -238,8 +238,8 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 		},
 		{
 			"type": "text",
-			"version": 648,
-			"versionNonce": 960406300,
+			"version": 652,
+			"versionNonce": 817109892,
 			"isDeleted": false,
 			"id": "QtdhRk3j",
 			"fillStyle": "hachure",
@@ -260,18 +260,18 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655169967525,
+			"updated": 1660598377803,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Agreement\n",
-			"rawText": "Agreement\n",
+			"text": "LigoAgreement\n",
+			"rawText": "LigoAgreement\n",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "Kzcqq6z8SNyutYTh8KkYi",
-			"originalText": "Agreement\n"
+			"originalText": "LigoAgreement\n"
 		},
 		{
 			"type": "text",
@@ -682,7 +682,7 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 124,
-			"height": 18,
+			"height": 19,
 			"seed": 235775516,
 			"groupIds": [
 				"zjphFksBboso4A9PySWLW"
@@ -713,8 +713,8 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 		},
 		{
 			"type": "arrow",
-			"version": 46,
-			"versionNonce": 133252644,
+			"version": 48,
+			"versionNonce": 1821736964,
 			"isDeleted": false,
 			"id": "i3RF7iSFnpupqDKQDAP5Q",
 			"fillStyle": "hachure",
@@ -727,13 +727,13 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"y": -81.51148324899555,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.45475372796192914,
+			"width": 0.45144652610530045,
 			"height": 60.507940994615524,
 			"seed": 1961947804,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655169967526,
+			"updated": 1660598372128,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -755,7 +755,7 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 					0
 				],
 				[
-					-0.45475372796192914,
+					-0.45144652610530045,
 					60.507940994615524
 				]
 			]
@@ -797,8 +797,8 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 		},
 		{
 			"type": "arrow",
-			"version": 38,
-			"versionNonce": 1303175588,
+			"version": 40,
+			"versionNonce": 1768873860,
 			"isDeleted": false,
 			"id": "c-DbEfOkF-BR7t1kvYuz3",
 			"fillStyle": "hachure",
@@ -817,7 +817,7 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655169967526,
+			"updated": 1660598372128,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -996,8 +996,8 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 		},
 		{
 			"type": "text",
-			"version": 539,
-			"versionNonce": 114040868,
+			"version": 540,
+			"versionNonce": 1360251580,
 			"isDeleted": false,
 			"id": "M0QjeFxW",
 			"fillStyle": "hachure",
@@ -1016,7 +1016,7 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655169971009,
+			"updated": 1660598372130,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1028,6 +1028,41 @@ The module allows the renter to withdraw deposit as long as an agreement has not
 			"verticalAlign": "middle",
 			"containerId": "42PjAxi5XrjkzljgBNmwJ",
 			"originalText": "The module allows the renter to withdraw deposit as long as an agreement has not been added"
+		},
+		{
+			"id": "vVAltEB_2X42xcZrqTau0",
+			"type": "text",
+			"x": 246.5,
+			"y": -160,
+			"width": 9,
+			"height": 20,
+			"angle": 0,
+			"strokeColor": "#e67700",
+			"backgroundColor": "#fab005",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 1847811588,
+			"version": 3,
+			"versionNonce": 2039545220,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1660598375504,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 16,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 14,
+			"containerId": null,
+			"originalText": ""
 		}
 	],
 	"appState": {

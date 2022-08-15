@@ -1,6 +1,12 @@
 # LigoSafeEscrow
-An enumeration defining the different payment methods accepted in Ligo.
+
 
 **Subclass Of**: [LigoPaymentMethod](./)
 
 ## Client Compatibility
+
+---
+## Appendix
+### Open Questions
+- Dispute method
+	- Pick specific oracles

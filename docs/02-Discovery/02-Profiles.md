@@ -5,7 +5,7 @@ title: "Profile"
 Hosts and renters each have **profiles** that are a [Ceramic Tile Documents](https://developers.ceramic.network/reference/stream-programs/tile-document/).
 
 ## Host Profiles
-Host profiles should contain links to their [listings](01-Listings.md).
+Host profiles should contain links to their [offers](01-Offers.md).
 
 ![Host Profiles.excalidraw](../drawings/Host%20Profiles.excalidraw.svg)
 

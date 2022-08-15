@@ -17,7 +17,7 @@ Public State
 
 Gnosis Safe ^OaoQI79h
 
-Agreement
+LigoAgreement
  ^f2iSReub
 
 IPFS DAG-JOSE ^qd42sRad
@@ -172,7 +172,7 @@ Host ^3GA4LyCp
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 87,
-			"height": 18,
+			"height": 19,
 			"seed": 1336506916,
 			"groupIds": [
 				"e99OcFoq7TuYIjNqqmaq4"
@@ -236,8 +236,8 @@ Host ^3GA4LyCp
 		},
 		{
 			"type": "text",
-			"version": 743,
-			"versionNonce": 772202524,
+			"version": 747,
+			"versionNonce": 1050945412,
 			"isDeleted": false,
 			"id": "f2iSReub",
 			"fillStyle": "hachure",
@@ -258,18 +258,18 @@ Host ^3GA4LyCp
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655170299109,
+			"updated": 1660598422336,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Agreement\n",
-			"rawText": "Agreement\n",
+			"text": "LigoAgreement\n",
+			"rawText": "LigoAgreement\n",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "mutLXcqkUP6TJzxjkVf7B",
-			"originalText": "Agreement\n"
+			"originalText": "LigoAgreement\n"
 		},
 		{
 			"type": "text",
@@ -623,7 +623,7 @@ Host ^3GA4LyCp
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 124,
-			"height": 18,
+			"height": 19,
 			"seed": 209967260,
 			"groupIds": [
 				"O-mOZJaOqT4sF7qtENYyt"
@@ -650,8 +650,8 @@ Host ^3GA4LyCp
 		},
 		{
 			"type": "arrow",
-			"version": 66,
-			"versionNonce": 995767068,
+			"version": 68,
+			"versionNonce": 2028407172,
 			"isDeleted": false,
 			"id": "eqFlxrGp_hcHu-mXJKevV",
 			"fillStyle": "hachure",
@@ -664,13 +664,13 @@ Host ^3GA4LyCp
 			"y": 458.5413155532519,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.45475372796195757,
+			"width": 0.4514465261053431,
 			"height": 60.50794099461547,
 			"seed": 1354272548,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655170329001,
+			"updated": 1660598418938,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -692,7 +692,7 @@ Host ^3GA4LyCp
 					0
 				],
 				[
-					-0.45475372796195757,
+					-0.4514465261053431,
 					60.50794099461547
 				]
 			]
@@ -982,7 +982,7 @@ Host ^3GA4LyCp
 			"y": 311.49737548828125,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 75,
+			"width": 76,
 			"height": 20,
 			"seed": 320897692,
 			"groupIds": [],
@@ -1002,41 +1002,30 @@ Host ^3GA4LyCp
 			"originalText": "2. Reject"
 		},
 		{
-			"id": "HpfgHli-TeaiJoa4WvTYd",
 			"type": "arrow",
-			"x": -128.3143310546875,
-			"y": 308.11529541015625,
-			"width": 56.86236572265625,
-			"height": 105.5704345703125,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 43,
+			"versionNonce": 1804385820,
+			"isDeleted": false,
+			"id": "HpfgHli-TeaiJoa4WvTYd",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -128.3143310546875,
+			"y": 308.11529541015625,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 56.86236572265625,
+			"height": 105.5704345703125,
+			"seed": 144737180,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 144737180,
-			"version": 43,
-			"versionNonce": 1804385820,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1655170336647,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					56.86236572265625,
-					-105.5704345703125
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "OaoQI79h",
 				"focus": 0.515692007688938,
@@ -1047,8 +1036,19 @@ Host ^3GA4LyCp
 				"focus": 0.26445169768440413,
 				"gap": 12.481964366984812
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					56.86236572265625,
+					-105.5704345703125
+				]
+			]
 		},
 		{
 			"type": "text",

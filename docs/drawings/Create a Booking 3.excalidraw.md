@@ -17,7 +17,7 @@ Public State
 
 Gnosis Safe ^yijVsrWK
 
-Agreement
+LigoAgreement
  ^7To3V7Of
 
 IPFS DAG-JOSE ^YCKODMxw
@@ -176,7 +176,7 @@ Host ^SLIlzoTI
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 87,
-			"height": 18,
+			"height": 19,
 			"seed": 1506503836,
 			"groupIds": [
 				"wh-LhspNpCjZU4yLQuWd7"
@@ -244,8 +244,8 @@ Host ^SLIlzoTI
 		},
 		{
 			"type": "text",
-			"version": 742,
-			"versionNonce": 58658844,
+			"version": 746,
+			"versionNonce": 1158416572,
 			"isDeleted": false,
 			"id": "7To3V7Of",
 			"fillStyle": "hachure",
@@ -266,18 +266,18 @@ Host ^SLIlzoTI
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655170191235,
+			"updated": 1660598370508,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Agreement\n",
-			"rawText": "Agreement\n",
+			"text": "LigoAgreement\n",
+			"rawText": "LigoAgreement\n",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "sj5Wa7VzM0SjwlbIouxY6",
-			"originalText": "Agreement\n"
+			"originalText": "LigoAgreement\n"
 		},
 		{
 			"type": "text",
@@ -635,7 +635,7 @@ Host ^SLIlzoTI
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 124,
-			"height": 18,
+			"height": 19,
 			"seed": 1896892316,
 			"groupIds": [
 				"ogZwisVZ37rwH4n9vJb7m"
@@ -662,8 +662,8 @@ Host ^SLIlzoTI
 		},
 		{
 			"type": "arrow",
-			"version": 65,
-			"versionNonce": 1868021020,
+			"version": 67,
+			"versionNonce": 2049541308,
 			"isDeleted": false,
 			"id": "WAVCgNUOlpjvzp8KzPhZl",
 			"fillStyle": "hachure",
@@ -672,17 +672,17 @@ Host ^SLIlzoTI
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -112.7309698863074,
-			"y": -90.86701776900776,
+			"x": -112.69617991812879,
+			"y": -90.86701776900775,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.42397680223371026,
-			"height": 60.41663240086547,
+			"width": 0.44771849687923293,
+			"height": 60.41663240086545,
 			"seed": 481202212,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655170395491,
+			"updated": 1660598365147,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -704,8 +704,8 @@ Host ^SLIlzoTI
 					0
 				],
 				[
-					-0.42397680223371026,
-					60.41663240086547
+					-0.44771849687923293,
+					60.41663240086545
 				]
 			]
 		},
@@ -896,8 +896,8 @@ Host ^SLIlzoTI
 		},
 		{
 			"type": "arrow",
-			"version": 315,
-			"versionNonce": 1368633252,
+			"version": 317,
+			"versionNonce": 9538876,
 			"isDeleted": false,
 			"id": "j5vdRq7_paywngZUrhJkC",
 			"fillStyle": "hachure",
@@ -916,7 +916,7 @@ Host ^SLIlzoTI
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655170388475,
+			"updated": 1660598365147,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -945,8 +945,8 @@ Host ^SLIlzoTI
 		},
 		{
 			"type": "arrow",
-			"version": 139,
-			"versionNonce": 1514543908,
+			"version": 141,
+			"versionNonce": 2112128444,
 			"isDeleted": false,
 			"id": "NhrruKAADpXObcm151VUz",
 			"fillStyle": "hachure",
@@ -965,7 +965,7 @@ Host ^SLIlzoTI
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655170388475,
+			"updated": 1660598365147,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1064,8 +1064,8 @@ Host ^SLIlzoTI
 		},
 		{
 			"type": "arrow",
-			"version": 82,
-			"versionNonce": 686738340,
+			"version": 88,
+			"versionNonce": 1411788932,
 			"isDeleted": false,
 			"id": "rp4EryNk-1C5gK73vqizx",
 			"fillStyle": "hachure",
@@ -1074,17 +1074,17 @@ Host ^SLIlzoTI
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -24.778625488281236,
-			"y": 22.979474369031003,
+			"x": -24.77862548828122,
+			"y": 22.980684443906945,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 252.06304931640625,
-			"height": 109.80589066088095,
+			"width": 252.06304931640622,
+			"height": 109.80685042723707,
 			"seed": 773998244,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655170395491,
+			"updated": 1660598370993,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1106,45 +1106,45 @@ Host ^SLIlzoTI
 					0
 				],
 				[
-					252.06304931640625,
-					-109.80589066088095
+					252.06304931640622,
+					-109.80685042723707
 				]
 			]
 		},
 		{
-			"id": "1MqQFX8g",
 			"type": "text",
-			"x": -180.17904760334798,
-			"y": 6.430567753612706,
-			"width": 137,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#2b8a3e",
-			"backgroundColor": "transparent",
+			"version": 26,
+			"versionNonce": 2100626076,
+			"isDeleted": false,
+			"id": "1MqQFX8g",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dashed",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -180.17904760334798,
+			"y": 6.430567753612706,
+			"strokeColor": "#2b8a3e",
+			"backgroundColor": "transparent",
+			"width": 137,
+			"height": 20,
+			"seed": 282295196,
 			"groupIds": [
 				"ogZwisVZ37rwH4n9vJb7m"
 			],
 			"strokeSharpness": "sharp",
-			"seed": 282295196,
-			"version": 26,
-			"versionNonce": 2100626076,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1655170397864,
 			"link": null,
 			"locked": false,
-			"text": "- Agreement ID",
-			"rawText": "- Agreement ID",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "- Agreement ID",
+			"rawText": "- Agreement ID",
+			"baseline": 14,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 14,
 			"containerId": "WnWn8ydcjgEF1FPSIfJmq",
 			"originalText": "- Agreement ID"
 		}
