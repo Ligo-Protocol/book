@@ -9,6 +9,10 @@ The primary payment method defined by [Transacting](../../../Transacting/).
 | `erc792Arbitrator` | The arbitrator used to resolve subjective disputes      | [CAIP-10](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-10.md) |
 
 ## Client Compatibility
+| Property           | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| ------------------ | --------------------------------------- |
+| `vehicleOracle`    | 🚧                                      |
+| `erc792Arbitrator` | 🚧                                      |
 
 ---
 ## Appendix

@@ -22,6 +22,20 @@ A `RentalCarReservation` is attached to a [LigoAgreement](./LigoAgreement) to pr
 ## Examples
 
 ## Client Compatibility
+| Property          | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| ----------------- | --------------------------------------- |
+| `bookingTime`     | 🚧                                      |
+| `modifiedTime`    | 🚧                                      |
+| `provider`        | 🚧                                      |
+| `reservationFor`  | 🚧                                      |
+| `totalPrice`      | 🚧                                      |
+| `underName`       | 🚧                                      |
+| `dropoffLocation` | 🚧                                      |
+| `dropoffTime`     | 🚧                                      |
+| `pickupLocation`  | 🚧                                      |
+| `pickupTime`      | 🚧                                      |
+
+
 
 ---
 ## Appendix

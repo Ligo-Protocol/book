@@ -19,6 +19,15 @@ An `Order` is attached to a [LigoAgreement](./LigoAgreement) to provide more det
 ## Examples
 
 ## Client Compatibility
+| Property          | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| ----------------- | --------------------------------------- |
+| `acceptedOffer`   | 🚧                                      |
+| `customer`        | 🚧                                      |
+| `seller`          | 🚧                                      |
+| `orderDate`       | 🚧                                      |
+| `paymentMethod`   | 🚧                                      |
+| `paymentMethodId` | 🚧                                      |
+| `paymentUrl`      | 🚧                                      |
 
 ---
 ## Appendix
