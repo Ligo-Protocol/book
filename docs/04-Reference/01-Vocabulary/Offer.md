@@ -38,28 +38,6 @@ Offers can still be made private by using encryption and/or private channels to 
 }
 ```
 
-#### Month-to-month subscription of $1000
-```json
-{
-  "@type": "OfferForLease",
-  "eligibleQuantity": {
-    "@type": "QuantitativeValue",
-    "minValue": 1,
-    "unitCode": "MON"
-  },
-  "priceSpecification": {
-	"@type": "UnitPriceSpecification",
-	"price": 1000,
-	"priceCurrency": "USD",
-	"referenceQuantity": {
-	  "@type": "QuantitativeValue",
-	  "value": 1,
-	  "unitCode": "MON"
-	}
-  }
-}
-```
-
 ## Client Compatibility
 
 | Property                    | [Ligo MVP](../../Clients/Ligo%20MVP.md) |

@@ -124,6 +124,53 @@ $25 per day from 2022-07-01 to 2022-07-10 and $30 per day after that.
 ]
 ```
 
+### Month-to-month subscription of $1000
+```json
+{
+  "@type": "UnitPriceSpecification",
+  "price": 1000,
+  "priceCurrency": "USD",
+  "billingIncrement": 1,
+  "unitCode": "MON"
+}
+```
+
+### Discount for 3+ days
+```json
+[
+	{
+	  "@type": "UnitPriceSpecification",
+	  "price": 25,
+	  "priceCurrency": "USD",
+	  "eligibleQuantity": {
+		"@type": "QuantitativeValue",
+	    "maxValue": 3,
+	    "unitCode": "DAY"
+	  },
+	  "referenceQuantity": {
+	    "@type": "QuantitativeValue",
+	    "value": 1,
+	    "unitCode": "DAY"
+	  }
+	},
+	{
+	  "@type": "UnitPriceSpecification",
+	  "price": 20,
+	  "priceCurrency": "USD",
+	  "eligibleQuantity": {
+		"@type": "QuantitativeValue",
+	    "minValue": 3,
+	    "unitCode": "DAY"
+	  },
+	  "referenceQuantity": {
+	    "@type": "QuantitativeValue",
+	    "value": 1,
+	    "unitCode": "DAY"
+	  }
+	}
+]
+```
+
 ## Client Compatibility
 
 | Property            | [Ligo MVP](../Clients/Ligo%20MVP) |
