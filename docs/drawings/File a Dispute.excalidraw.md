@@ -31,7 +31,7 @@ User ^qWGcNyAZ
 
 Ligo Safe Module ^hHY3UaRu
 
-Private State time: 1 ^GaluCl8e
+LigoAgreementState time: 1 ^GaluCl8e
 
 IPFS DAG-JOSE ^IDd3k4gU
 
@@ -139,8 +139,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "text",
-			"version": 582,
-			"versionNonce": 2106758588,
+			"version": 583,
+			"versionNonce": 154030268,
 			"isDeleted": false,
 			"id": "ER9codA6",
 			"fillStyle": "hachure",
@@ -161,7 +161,7 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1660598384747,
+			"updated": 1660614319306,
 			"link": null,
 			"locked": false,
 			"fontSize": 16.19528578545118,
@@ -463,8 +463,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "arrow",
-			"version": 874,
-			"versionNonce": 840588988,
+			"version": 878,
+			"versionNonce": 1395020220,
 			"isDeleted": false,
 			"id": "yIyn_VpoySwYm4wlD_Oum",
 			"fillStyle": "hachure",
@@ -474,16 +474,16 @@ Chainlink External Adapter ^rwontZ18
 			"opacity": 100,
 			"angle": 0,
 			"x": 128.11924874670348,
-			"y": 54.581984094143706,
+			"y": 54.5820226157001,
 			"strokeColor": "#000000",
 			"backgroundColor": "#15aabf",
 			"width": 174.21910345659762,
-			"height": 3.0671755731608457,
+			"height": 3.0672020095848964,
 			"seed": 652604603,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598391035,
+			"updated": 1660614319307,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -506,7 +506,7 @@ Chainlink External Adapter ^rwontZ18
 				],
 				[
 					174.21910345659762,
-					-3.0671755731608457
+					-3.0672020095848964
 				]
 			]
 		},
@@ -901,8 +901,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "arrow",
-			"version": 244,
-			"versionNonce": 1570907396,
+			"version": 246,
+			"versionNonce": 1482480132,
 			"isDeleted": false,
 			"id": "7gXEkzO22SSWO_-OPLqt-",
 			"fillStyle": "hachure",
@@ -911,17 +911,17 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 42.61139818244746,
+			"x": 42.61419908670842,
 			"y": -123.50763226525663,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 1.944373710577871,
+			"width": 1.9466941692033757,
 			"height": 112.62878977878898,
 			"seed": 1705420059,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598384746,
+			"updated": 1660614319306,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -943,15 +943,15 @@ Chainlink External Adapter ^rwontZ18
 					0
 				],
 				[
-					-1.944373710577871,
+					-1.9466941692033757,
 					112.62878977878898
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1009,
-			"versionNonce": 1427555835,
+			"version": 1037,
+			"versionNonce": 1659938492,
 			"isDeleted": false,
 			"id": "UxgJSl1S3f8mi8Wpxieiq",
 			"fillStyle": "hachure",
@@ -960,11 +960,11 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -316.67630078611523,
+			"x": -316.7904834784229,
 			"y": 230.2841934785854,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 127,
+			"width": 169,
 			"height": 84,
 			"seed": 2104862389,
 			"groupIds": [
@@ -977,14 +977,14 @@ Chainlink External Adapter ^rwontZ18
 					"type": "text"
 				}
 			],
-			"updated": 1655762394666,
+			"updated": 1660614329717,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 969,
-			"versionNonce": 1092414261,
+			"version": 998,
+			"versionNonce": 2128556804,
 			"isDeleted": false,
 			"id": "GaluCl8e",
 			"fillStyle": "hachure",
@@ -993,11 +993,11 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -311.67630078611523,
+			"x": -311.7904834784229,
 			"y": 235.2841934785854,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 117,
+			"width": 159,
 			"height": 40,
 			"seed": 2066025243,
 			"groupIds": [
@@ -1005,23 +1005,23 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655762394666,
+			"updated": 1660614329718,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Private State\ntime: 1",
-			"rawText": "Private State time: 1",
+			"text": "LigoAgreementState\ntime: 1",
+			"rawText": "LigoAgreementState time: 1",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "UxgJSl1S3f8mi8Wpxieiq",
-			"originalText": "Private State time: 1"
+			"originalText": "LigoAgreementState time: 1"
 		},
 		{
 			"type": "text",
-			"version": 766,
-			"versionNonce": 467816091,
+			"version": 767,
+			"versionNonce": 1214665220,
 			"isDeleted": false,
 			"id": "IDd3k4gU",
 			"fillStyle": "hachure",
@@ -1030,7 +1030,7 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -314.0902564745918,
+			"x": -314.297588205361,
 			"y": 203.60384603595844,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
@@ -1047,7 +1047,7 @@ Chainlink External Adapter ^rwontZ18
 					"type": "arrow"
 				}
 			],
-			"updated": 1655762394666,
+			"updated": 1660614325584,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1062,8 +1062,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "line",
-			"version": 1229,
-			"versionNonce": 1159969941,
+			"version": 1230,
+			"versionNonce": 1746360508,
 			"isDeleted": false,
 			"id": "Qk6WKbeonHuF6_jOX4RBz",
 			"fillStyle": "solid",
@@ -1072,7 +1072,7 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -321.52250501075264,
+			"x": -321.72983674152186,
 			"y": 229.2085247515132,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
@@ -1085,7 +1085,7 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655762394666,
+			"updated": 1660614325584,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1138,8 +1138,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "rectangle",
-			"version": 825,
-			"versionNonce": 1567867707,
+			"version": 826,
+			"versionNonce": 1244963076,
 			"isDeleted": false,
 			"id": "k8D63oAZjBB19OTv-v9wD",
 			"fillStyle": "solid",
@@ -1148,7 +1148,7 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -324.3406396597019,
+			"x": -324.5479713904711,
 			"y": 229.43500093255795,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
@@ -1161,14 +1161,14 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655762394666,
+			"updated": 1660614325584,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 833,
-			"versionNonce": 923361781,
+			"version": 834,
+			"versionNonce": 430235964,
 			"isDeleted": false,
 			"id": "d2gjeKyZgHIjEXLBTAt3a",
 			"fillStyle": "solid",
@@ -1177,7 +1177,7 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -318.60789518472325,
+			"x": -318.8152269154925,
 			"y": 233.57531638670912,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
@@ -1190,14 +1190,14 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655762394666,
+			"updated": 1660614325584,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 123,
-			"versionNonce": 890969916,
+			"version": 125,
+			"versionNonce": 443333180,
 			"isDeleted": false,
 			"id": "-hO5oqhYEwB5Od9tb9m7y",
 			"fillStyle": "hachure",
@@ -1216,7 +1216,7 @@ Chainlink External Adapter ^rwontZ18
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598384748,
+			"updated": 1660614319307,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1320,8 +1320,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "arrow",
-			"version": 201,
-			"versionNonce": 1003956405,
+			"version": 203,
+			"versionNonce": 2002088324,
 			"isDeleted": false,
 			"id": "TKLS-0TuvOYIrzoNFnkgu",
 			"fillStyle": "hachure",
@@ -1330,17 +1330,17 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -241.0658140545878,
+			"x": -241.2141392324911,
 			"y": 195.93228356865595,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 78.79081429272202,
+			"width": 78.91940557571098,
 			"height": 106.2131629238119,
 			"seed": 1406347061,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655762394666,
+			"updated": 1660614325584,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1362,7 +1362,7 @@ Chainlink External Adapter ^rwontZ18
 					0
 				],
 				[
-					78.79081429272202,
+					78.91940557571098,
 					-106.2131629238119
 				]
 			]
@@ -1410,8 +1410,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "text",
-			"version": 591,
-			"versionNonce": 2127503492,
+			"version": 592,
+			"versionNonce": 1564882308,
 			"isDeleted": false,
 			"id": "rwontZ18",
 			"fillStyle": "hachure",
@@ -1432,7 +1432,7 @@ Chainlink External Adapter ^rwontZ18
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1660598384749,
+			"updated": 1660614319308,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1447,8 +1447,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "arrow",
-			"version": 301,
-			"versionNonce": 1324226748,
+			"version": 305,
+			"versionNonce": 255955900,
 			"isDeleted": false,
 			"id": "wTYQS4RClGeUvPmSBBA6q",
 			"fillStyle": "hachure",
@@ -1457,17 +1457,17 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 9.29687016738908,
+			"x": 9.296870167389017,
 			"y": 93.48843259237412,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 20.429519662914394,
+			"width": 20.429519662914437,
 			"height": 132.76520126308816,
 			"seed": 1188369557,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598384749,
+			"updated": 1660614319308,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1489,15 +1489,15 @@ Chainlink External Adapter ^rwontZ18
 					0
 				],
 				[
-					20.429519662914394,
+					20.429519662914437,
 					132.76520126308816
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 281,
-			"versionNonce": 2007212348,
+			"version": 285,
+			"versionNonce": 1976548412,
 			"isDeleted": false,
 			"id": "OcYQ9WUKYaj3xkRmo8dCe",
 			"fillStyle": "hachure",
@@ -1506,17 +1506,17 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 72.35399726852552,
+			"x": 72.35399726852498,
 			"y": 224.63127451508763,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 8.432968454897605,
+			"width": 8.432968454897193,
 			"height": 131.4262609366458,
 			"seed": 1415113851,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598384749,
+			"updated": 1660614319308,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1538,7 +1538,7 @@ Chainlink External Adapter ^rwontZ18
 					0
 				],
 				[
-					-8.432968454897605,
+					-8.432968454897193,
 					-131.4262609366458
 				]
 			]
@@ -1650,8 +1650,8 @@ Chainlink External Adapter ^rwontZ18
 		},
 		{
 			"type": "arrow",
-			"version": 60,
-			"versionNonce": 1000268932,
+			"version": 62,
+			"versionNonce": 1463482756,
 			"isDeleted": false,
 			"id": "Bq-U1dA-trxb8flgBbn54",
 			"fillStyle": "hachure",
@@ -1660,17 +1660,17 @@ Chainlink External Adapter ^rwontZ18
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 77.37029565554467,
+			"x": 77.37010130417883,
 			"y": -10.274778160466724,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 2.4253606604934816,
-			"height": 108.12833150227863,
+			"width": 2.4252566662118653,
+			"height": 108.12833150227861,
 			"seed": 68633851,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1660598384747,
+			"updated": 1660614319306,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1692,8 +1692,8 @@ Chainlink External Adapter ^rwontZ18
 					0
 				],
 				[
-					-2.4253606604934816,
-					-108.12833150227863
+					-2.4252566662118653,
+					-108.12833150227861
 				]
 			]
 		}
