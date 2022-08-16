@@ -8,7 +8,7 @@ A reservation for a rental car.
 | `bookingTime`     | The date and time the reservation was booked.                | [https://schema.org/DateTime](https://schema.org/DateTime)                                                                   |
 | `modifiedTime`    | The date and time the reservation was modified.              | [https://schema.org/DateTime](https://schema.org/DateTime)                                                                   |
 | `provider`        | The entity providing the rental. Same as `seller` of `Offer` | [https://schema.org/Organization](https://schema.org/Organization) or [https://schema.org/Person](https://schema.org/Person) |
-| `reservationFor`  | The vehicle being reserved.                                  | [https://schema.org/Vehicle](https://schema.org/Vehicle)                                                                     |
+| `reservationFor`  | The vehicle being reserved.                                  | [Car](./Car)                                                                     |
 | `totalPrice`      | The total price for the reservation.                         | [https://schema.org/PriceSpecification](https://schema.org/PriceSpecification)                                               |
 | `underName`       | The person or organization the reservation is for.           | [https://schema.org/Organization](https://schema.org/Organization) or [https://schema.org/Person](https://schema.org/Person) |
 | `dropoffLocation` | Where a rental car can be dropped off.                       | [https://schema.org/Place](https://schema.org/Place)                                                                         |
