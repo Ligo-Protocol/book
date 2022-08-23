@@ -4,7 +4,7 @@ Vehicle oracle that uses [Standard Fleet](https://www.standardfleet.com/).
 **Subclass Of**: [LigoVehicleOracle](./)
 
 ## Client Compatibility
-| [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| [Ligo MVP](../../Clients/Ligo%20MVP) |
 | --------------------------------------- |
 | 🚧                                      |
 

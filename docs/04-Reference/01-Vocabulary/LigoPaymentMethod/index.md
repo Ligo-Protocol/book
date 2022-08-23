@@ -7,6 +7,6 @@ An enumeration defining the different payment methods accepted in Ligo.
 - [LigoSafeEscrow](./LigoSafeEscrow)
 
 ## Client Compatibility
-| Value                              | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| Value                              | [Ligo MVP](../../Clients/Ligo%20MVP) |
 | ---------------------------------- | --------------------------------------- |
 | [LigoSafeEscrow](./LigoSafeEscrow) | 🚧                                      |

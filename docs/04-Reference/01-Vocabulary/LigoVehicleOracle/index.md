@@ -8,7 +8,7 @@ An enumeration defining the different oracles that can be used as the source of 
 - [StandardFleetVehicleOracle](./StandardFleetVehicleOracle)
 
 ## Client Compatibility
-| Value                                                      | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| Value                                                      | [Ligo MVP](../../Clients/Ligo%20MVP) |
 | ---------------------------------------------------------- | --------------------------------------- |
 | [SmartcarVehicleOracle](./SmartcarVehicleOracle)           | 🚧                                      |
 | [StandardFleetVehicleOracle](./StandardFleetVehicleOracle) | 🚧                                      |

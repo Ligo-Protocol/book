@@ -40,7 +40,7 @@ Offers can still be made private by using encryption and/or private channels to 
 
 ## Client Compatibility
 
-| Property                    | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| Property                    | [Ligo MVP](../Clients/Ligo%20MVP) |
 | --------------------------- | --------------------------------------- |
 | `description`               | 🚧                                      |
 | `image`                     | 🚧                                      |

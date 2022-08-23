@@ -18,7 +18,7 @@ The `LigoAgreement` should be encrypted and sent to the `seller` of the `Offer` 
 ## Examples
 
 ## Client Compatibility
-| Property      | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| Property      | [Ligo MVP](../Clients/Ligo%20MVP) |
 | ------------- | --------------------------------------- |
 | `order`       | 🚧                                      |
 | `reservation` | 🚧                                      |

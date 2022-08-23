@@ -19,7 +19,7 @@ An `Order` is attached to a [LigoAgreement](./LigoAgreement) to provide more det
 ## Examples
 
 ## Client Compatibility
-| Property          | [Ligo MVP](../../Clients/Ligo%20MVP.md) |
+| Property          | [Ligo MVP](../Clients/Ligo%20MVP) |
 | ----------------- | --------------------------------------- |
 | `acceptedOffer`   | 🚧                                      |
 | `customer`        | 🚧                                      |
