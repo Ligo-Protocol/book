@@ -74,7 +74,7 @@ const encryptedSymmetricKey = await client.saveEncryptionKey({
   accessControlConditions,
   symmetricKey,
   authSig,
-  <chain where safe lives>,
+  chain: <chain where safe lives>,
 });
 ```
 
@@ -99,3 +99,89 @@ const cid = await ipfs.dag.put(jwe, { format: dagJoseIpldFormat.codec, hashAlg: 
 ```
 
 
+## Decryption
+### 1. Fetch object from IPFS
+Given the CID, the encrypted agreement can be fetched from IPFS.
+
+```javascript
+const retrieved = await ipfs.dag.get(cid);
+
+const protHeader = JSON.parse(
+	u8a.toString(base64ToBytes(retrieved.value.protected))
+);
+```
+
+### 2. Derive Access Control Conditions
+The access control conditions define who has access to the symmetric key. This can be derived given the address of the Safe for the agreement (`<safeAddress>`).
+
+```javascript
+const accessControlConditions = [
+  {
+	contractAddress: <safeAddress>,
+	functionName: "isOwner",
+	functionAbi: {
+	  inputs: [
+		{
+		  internalType: "address",
+		  name: "owner",
+		  type: "address",
+		},
+	  ],
+	  name: "isOwner",
+	  outputs: [
+		{
+		  internalType: "bool",
+		  name: "",
+		  type: "bool",
+		},
+	  ],
+	  stateMutability: "view",
+	  type: "function",
+	},
+	chain: <chain where safe lives>,
+	functionParams: [":userAddress"],
+	returnValueTest: {
+	  key: "",
+	  comparator: "=",
+	  value: "true",
+	},
+  },
+]
+```
+
+### 3. Retrieve key from Lit
+Given the symmetric key and derived access control conditions, the key can now be retrieved  from the Lit network.
+
+```javascript
+import LitJsSdk from "@lit-protocol/sdk-browser";
+import {
+  base64ToBytes,
+} from "did-jwt";
+
+// 1. Setup Lit SDK
+const client = new LitJsSdk.LitNodeClient();  
+await client.connect();
+
+// 2. Generate auth sig from user wallet
+const authSig = await LitJsSdk.checkAndSignAuthMessage({ chain: <chain where safe lives> });
+
+const symmetricKey = await window.litNodeClient.getEncryptionKey({
+  accessControlConditions,
+  toDecrypt: base64ToBytes(protHeader.encryptedSymmetricKey),
+  chain: <chain where safe lives>,
+  authSig,
+});
+```
+
+### 4. Decrypt object
+```javascript
+import {
+  xc20pDirDecrypter,
+  decryptJWE,
+} from "did-jwt";
+import { decodeCleartext } from "dag-jose-utils";
+
+const dirDecrypter = xc20pDirDecrypter(symmetricKey);
+const decryptedData = await decryptJWE(retrieved.value, dirDecrypter);
+const decryptedAgreement = decodeCleartext(decryptedData);
+```
