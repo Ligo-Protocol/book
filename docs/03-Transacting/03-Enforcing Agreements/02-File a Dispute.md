@@ -17,3 +17,4 @@ Whenever there is a disagreement about a _state change_, one party may not be ab
 ## Appendix
 ### To Do
 - [ ] Add details on how Chainlink External Adapter decrypts private state
+- [ ] Look into [Lit Actions](https://developer.litprotocol.com/LitActionsAndPKPs/whatAreLitActionsAndPKPs) as a possible alternative to Chainlink
