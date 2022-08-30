@@ -3,6 +3,8 @@ The [LigoAgreement](../01-Vocabulary/LigoAgreement.md) and [LigoAgreementState](
 
 This document describes how the encryption and decryption of these objects works.
 
+See a working example [here](https://github.com/Ligo-Protocol/ts-ligo-vocab/blob/main/examples/encryption.mjs).
+
 ## Encryption
 
 ### 1. Create Lit symmetric key

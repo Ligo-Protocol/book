@@ -33,5 +33,3 @@ If the host would like to reject the booking, they can immediately send a transa
 		- But PKH DID method does not have `keyAgreement` for encryption
 	- [Waku](https://waku.org/)
 	- Safe module can have "proposed agreement" field upon initialization
-- How is agreement encrypted?
-	- If PKH DID method is used, [Lit](https://developer.litprotocol.com/LitActionsAndPKPs/whatAreLitActionsAndPKPs) is a good option
