@@ -7,13 +7,13 @@ const wikiLinkPlugin = require("remark-wiki-link");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Ligo Protocol",
-  tagline: "A protocol for car sharing agreements",
-  url: "https://ligo-book.codyhatfield.me",
+  title: "Ligo",
+  tagline: "An open sharing economy platform",
+  url: "https://ligo.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  // favicon: "img/favicon.ico",
+  favicon: "img/favicon.ico",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -21,7 +21,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  staticDirectories: ["docs/drawings"],
+  staticDirectories: ["docs/drawings", "static"],
   presets: [
     [
       "classic",
@@ -52,15 +52,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Ligo Protocol",
-        // logo: {
-        //   alt: "Ligo Protocol Logo",
-        //   src: "img/logo.svg",
-        // },
+        logo: {
+          alt: "Ligo Logo",
+          src: "img/logo.jpg",
+        },
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Cody Hatfield (@codynhat)`,
       },
       prism: {
         theme: lightCodeTheme,
