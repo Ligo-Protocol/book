@@ -103,6 +103,10 @@ const config = {
                 href: "https://gitcoin.co/grants/7667/ligo-an-open-sharing-economy-platform",
               },
               {
+                label: "Github",
+                href: "https://github.com/Ligo-Protocol",
+              },
+              {
                 label: "Twitter",
                 href: "https://twitter.com/ligoplatform",
               },
