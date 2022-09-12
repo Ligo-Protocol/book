@@ -29,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "/",
+          routeBasePath: "/docs/",
           exclude: ["drawings/*"],
           remarkPlugins: [
             [
@@ -51,18 +51,70 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "docs/img/profile.jpg",
       navbar: {
         logo: {
           alt: "Ligo Logo",
           src: "img/logo.jpg",
         },
+        items: [
+          {
+            href: "https://github.com/Ligo-Protocol",
+            className: "header-github-link",
+            position: "right",
+          },
+          {
+            href: "https://twitter.com/ligoplatform",
+            className: "header-twitter-link",
+            position: "right",
+          },
+          {
+            href: "https://gitcoin.co/grants/7667/ligo-an-open-sharing-economy-platform",
+            className: "header-gitcoin-link",
+            position: "right",
+          },
+        ],
       },
       footer: {
         style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Introduction",
+                to: "docs/",
+              },
+              {
+                label: "Discovery",
+                to: "docs/Discovery",
+              },
+              {
+                label: "Transacting",
+                to: "docs/Transacting",
+              },
+            ],
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Support Us On Gitcoin",
+                href: "https://gitcoin.co/grants/7667/ligo-an-open-sharing-economy-platform",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/ligoplatform",
+              },
+            ],
+          },
+        ],
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        disableSwitch: true,
       },
     }),
 };
