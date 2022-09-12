@@ -3,8 +3,10 @@ title: "Introduction"
 slug: /
 ---
 
-The Ligo Protocol is a protocol for car sharing agreements.
+Ligo is an open sharing economy platform.
 
-> It enables peers to **discover** and **transact** with each other with **minimal trust** by defining how agreements are defined, created, and enforced.
+Our mission is to increase competition among builders in the sharing economy by creating an open platform that allows anyone to create diverse sharing solutions.
+
+The initial area Ligo is focusing on is **car sharing**. The car sharing market has high demand, but a wide range of needs depending on the community. This is a great opportunity for an open platform to compete as large platforms are not serving the needs of various niche communities.
 
 The initial design described here is a work in progress and is changing rapidly. Feel free to leave comments and provide feedback at the bottom of each page.

@@ -15,6 +15,7 @@ function HomepageHeader() {
         <h1 className="hero__title">
           Ligo is an open sharing economy platform.
         </h1>
+        <br />
         <p className="hero__subtitle">
           Our mission is to increase competition among builders in the sharing
           economy by creating an open platform that allows anyone to create

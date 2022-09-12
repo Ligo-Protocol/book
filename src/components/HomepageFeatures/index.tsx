@@ -4,32 +4,60 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Open Discovery",
+    Svg: require("@site/static/img/discovery.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        One of the largest barriers new entrants to the sharing economy face is
+        needing to solve the two-sided market problem. A builder should be able
+        to reach everyone in either side of the market without needing to invest
+        large amounts of capital to change people's behaviors and habits.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    title: "Open Tooling and Infrastructure",
+    Svg: require("@site/static/img/tools.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Many sharing economy platforms need to invest heavily in infrastructure
+        and technology to have a competitive product. A builder should have
+        access to basic infrastructure needed to power their solutions.
       </>
     ),
   },
   {
-    title: "Powered by React",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    title: "Open Payments",
+    Svg: require("@site/static/img/payments.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Having a specific payment or pricing model inhibits innovation. Builders
+        should be able to use various payment methods and compete with different
+        pricing models.
+      </>
+    ),
+  },
+  {
+    title: "Open Trust Mechanisms",
+    Svg: require("@site/static/img/trust.svg").default,
+    description: (
+      <>
+        The 5-star review rating system is the common trust mechanism used in
+        platforms today and does not come without flaws. Builders should be able
+        to experiment with different trust mechanisms and innovate beyond the
+        primitive 5-star system.
+      </>
+    ),
+  },
+  {
+    title: "Open Ownership",
+    Svg: require("@site/static/img/ownership.svg").default,
+    description: (
+      <>
+        Most platforms today are shareholder and VC-backed startups that grow as
+        fast as possible and later extract profits from other stakeholders.
+        Builders should be able to experiment with different ownership models
+        without compromising any competitive advantage.
       </>
     ),
   },
