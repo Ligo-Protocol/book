@@ -51,7 +51,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "docs/img/profile.jpg",
+      image: "img/banner.jpg",
       navbar: {
         logo: {
           alt: "Ligo Logo",
