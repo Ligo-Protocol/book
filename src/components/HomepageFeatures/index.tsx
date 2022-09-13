@@ -82,7 +82,13 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {FeatureList.slice(0, 3).map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+        <div className="row">
+          <div className={clsx("col col--2")}></div>
+          {FeatureList.slice(3).map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
