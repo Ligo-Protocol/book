@@ -8,7 +8,6 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -22,15 +21,14 @@ function HomepageHeader() {
           diverse sharing solutions.
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/">
-            View Docs
-          </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://gitcoin.co/grants/7667/ligo-an-open-sharing-economy-platform"
+            to="https://docs.google.com/forms/d/e/1FAIpQLSe82qaf-NKFq6xkYEbHGnFqS8npNGuSzO3xbT_fejklEkFeAA/viewform?usp=sf_link"
           >
-            <img width="19px" height="19px" src="/img/gc.svg" /> Support Us On
-            Gitcoin
+            Join the Waitlist
+          </Link>
+          <Link className="button button--secondary button--lg" to="/docs/">
+            View Docs
           </Link>
         </div>
       </div>

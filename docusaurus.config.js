@@ -73,6 +73,11 @@ const config = {
             className: "header-gitcoin-link",
             position: "right",
           },
+          {
+            href: "https://discord.gg/wWRbKKZh35",
+            className: "header-discord-link",
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -99,6 +104,10 @@ const config = {
             title: "Community",
             items: [
               {
+                label: "Join the Waitlist",
+                href: "https://docs.google.com/forms/d/e/1FAIpQLSe82qaf-NKFq6xkYEbHGnFqS8npNGuSzO3xbT_fejklEkFeAA/viewform?usp=sf_link",
+              },
+              {
                 label: "Support Us On Gitcoin",
                 href: "https://gitcoin.co/grants/7667/ligo-an-open-sharing-economy-platform",
               },
@@ -109,6 +118,10 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/ligoplatform",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/wWRbKKZh35",
               },
             ],
           },
