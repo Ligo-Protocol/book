@@ -25,11 +25,15 @@ If the host would like to reject the booking, they can immediately send a transa
 
 ![Reject Booking.excalidraw](../../drawings/Reject%20Booking.excalidraw.svg)
 
+## 2c. Further changes
+The host can also respond with changes to the agreement by sending a new transaction of the same nonce with a new CID.
+
+## 3. Agreement is in effect
+Once both parties have signed the transaction to update the agreement, the agreement goes into effect and the Ligo Module will now follow the rules laid out in the agreement.
+
 ---
 ## Appendix
 ### Open Questions
 - How is the agreement sent to the host?
-	- [DIDComm Messaging](https://identity.foundation/didcomm-messaging/spec/) is a candidate
-		- But PKH DID method does not have `keyAgreement` for encryption
-	- [Waku](https://waku.org/)
-	- Safe module can have "proposed agreement" field upon initialization
+	- Waku or XMTP (more private?)
+	- Safe transactions service
