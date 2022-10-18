@@ -11,7 +11,6 @@ Contains information needed to exchange value and services (e.g. the state of th
 | `endLocation`  | The location of the vehicle at the end of the trip.                                              | [https://schema.org/GeoCoordinates](https://schema.org/GeoCoordinates)       |
 
 ## Usage
-Each `LigoAgreementState` or property may contain a proof from a [LigoVehicleOracle](./LigoVehicleOracle) attesting to the state of the vehicle at a specific time.
 
 ## Examples
 
