@@ -12,13 +12,13 @@ A **challenge** is filed with the Ligo Safe Module and the IPFS CID of the **pro
 
 ## 2a. Challenge Window Expires
 
-If the challenge window expires without a response from the other party, a third party steps in to resolve the state. See [Resolving State](./Resolving%20State.md).
+If the challenge window expires without a response from the other party, a third party steps in to resolve the state. See [Resolving State](./Resolving%20State).
 
 ![Forcing a State Change 2.excalidraw](../../drawings/Forcing%20a%20State%20Change%202.excalidraw.svg)
 
 ## 2b. State Change is Disputed
 
-The other party may disagree with the proposed state change. If they disagree and submit a dispute before the challenge window expires, a third party steps in to resolve the dispute. See [Resolving State](./Resolving%20State.md).
+The other party may disagree with the proposed state change. If they disagree and submit a dispute before the challenge window expires, a third party steps in to resolve the dispute. See [Resolving State](./Resolving%20State).
 
 ![Forcing a State Change 3.excalidraw](../../drawings/Forcing%20a%20State%20Change%203.excalidraw.svg)
 
