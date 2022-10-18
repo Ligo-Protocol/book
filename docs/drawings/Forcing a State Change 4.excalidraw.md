@@ -29,17 +29,17 @@ Challenger ^FFa8umHe
 
 Ligo Safe Module ^FtM4E1g2
 
-LigoAgreementState time: 2 ^MBGjNy8C
+LigoAgreementState nonce: 2 ^MBGjNy8C
 
 IPFS DAG-JOSE ^ZUWnz4fu
 
 - Proposed State CID ^XExFxGPF
 
-LigoAgreementState time: 1 ^25ev3aWv
+LigoAgreementState nonce: 1 ^25ev3aWv
 
 IPFS DAG-JOSE ^m9W2j2K2
 
-LigoAgreementState time: 0 ^wVGf9fRS
+LigoAgreementState nonce: 0 ^wVGf9fRS
 
 IPFS DAG-JOSE ^tMoIEEai
 
@@ -56,7 +56,7 @@ Other party ^3DwoBGVO
 
 1. Accept state change ^weMgDCTZ
 
-LigoAgreementState time: 2 ^mUjnQFd0
+LigoAgreementState nonce: 2 ^mUjnQFd0
 
 IPFS DAG-JOSE ^xVHneBhk
 
@@ -154,8 +154,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "text",
-			"version": 614,
-			"versionNonce": 355968377,
+			"version": 615,
+			"versionNonce": 1429336153,
 			"isDeleted": false,
 			"id": "DzzUSpm8",
 			"fillStyle": "hachure",
@@ -169,21 +169,21 @@ Signed State CID ^w8HzKW3L
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 101,
-			"height": 82,
+			"height": 84,
 			"seed": 1507370839,
 			"groupIds": [
 				"5KewziFpfnD9IEHm2qBDW"
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050467457,
+			"updated": 1666124089201,
 			"link": null,
 			"locked": false,
 			"fontSize": 16.19528578545118,
 			"fontFamily": 1,
 			"text": "Public State\n\n- Funds\n- Identities",
 			"rawText": "Public State\n\n- Funds\n- Identities",
-			"baseline": 76,
+			"baseline": 78,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "sjIWq3ECraoDbtWVYmX49",
@@ -478,8 +478,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 1129,
-			"versionNonce": 77945657,
+			"version": 1133,
+			"versionNonce": 250768921,
 			"isDeleted": false,
 			"id": "mg_tImtAqWRtfyJjOZGFX",
 			"fillStyle": "hachure",
@@ -498,7 +498,7 @@ Signed State CID ^w8HzKW3L
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467459,
+			"updated": 1666124089203,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -773,8 +773,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 509,
-			"versionNonce": 60104857,
+			"version": 511,
+			"versionNonce": 414664569,
 			"isDeleted": false,
 			"id": "tOTtmE2Pcrt8rmfNAzpX2",
 			"fillStyle": "hachure",
@@ -793,7 +793,7 @@ Signed State CID ^w8HzKW3L
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467457,
+			"updated": 1666124089201,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -822,8 +822,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "rectangle",
-			"version": 1421,
-			"versionNonce": 251596313,
+			"version": 1422,
+			"versionNonce": 1745504215,
 			"isDeleted": false,
 			"id": "gZoUKfMwy4jgiLtmIEJ0U",
 			"fillStyle": "hachure",
@@ -832,7 +832,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 57.5378952912738,
+			"x": 57.38986897548432,
 			"y": 323.0920971132599,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
@@ -853,14 +853,14 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1380,
-			"versionNonce": 118924567,
+			"version": 1386,
+			"versionNonce": 1036426265,
 			"isDeleted": false,
 			"id": "MBGjNy8C",
 			"fillStyle": "hachure",
@@ -869,7 +869,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 62.5378952912738,
+			"x": 62.38986897548432,
 			"y": 328.0920971132599,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
@@ -881,23 +881,23 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050448655,
+			"updated": 1666124092989,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "LigoAgreementState\ntime: 2",
-			"rawText": "LigoAgreementState time: 2",
+			"text": "LigoAgreementState\nnonce: 2",
+			"rawText": "LigoAgreementState nonce: 2",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "gZoUKfMwy4jgiLtmIEJ0U",
-			"originalText": "LigoAgreementState time: 2"
+			"originalText": "LigoAgreementState nonce: 2"
 		},
 		{
 			"type": "text",
-			"version": 1145,
-			"versionNonce": 383982553,
+			"version": 1146,
+			"versionNonce": 1801289239,
 			"isDeleted": false,
 			"id": "ZUWnz4fu",
 			"fillStyle": "hachure",
@@ -906,7 +906,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 59.8940718143358,
+			"x": 59.74604549854632,
 			"y": 296.41174967063296,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
@@ -923,7 +923,7 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -938,8 +938,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "line",
-			"version": 1605,
-			"versionNonce": 1248037719,
+			"version": 1606,
+			"versionNonce": 1368690617,
 			"isDeleted": false,
 			"id": "R06vYppuBg6Z9NRRWX5i3",
 			"fillStyle": "solid",
@@ -948,7 +948,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 52.46182327817496,
+			"x": 52.31379696238548,
 			"y": 322.0164283861877,
 			"strokeColor": "#e67700",
 			"backgroundColor": "#fd7e14",
@@ -961,7 +961,7 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1014,8 +1014,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "rectangle",
-			"version": 1201,
-			"versionNonce": 669956505,
+			"version": 1202,
+			"versionNonce": 730342487,
 			"isDeleted": false,
 			"id": "UYzD7K-NYJ6YrxzcyoiNo",
 			"fillStyle": "solid",
@@ -1024,7 +1024,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 49.64368862922561,
+			"x": 49.49566231343613,
 			"y": 322.2429045672325,
 			"strokeColor": "#e67700",
 			"backgroundColor": "#fd7e14",
@@ -1037,14 +1037,14 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 1209,
-			"versionNonce": 514197623,
+			"version": 1210,
+			"versionNonce": 1270624409,
 			"isDeleted": false,
 			"id": "v5i8QULD-vSxLvIL96P0Y",
 			"fillStyle": "solid",
@@ -1053,7 +1053,7 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 55.37643310420435,
+			"x": 55.22840678841487,
 			"y": 326.38322002138364,
 			"strokeColor": "#e67700",
 			"backgroundColor": "#fd7e14",
@@ -1066,7 +1066,7 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false
 		},
@@ -1112,8 +1112,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 1709,
-			"versionNonce": 1537489081,
+			"version": 1711,
+			"versionNonce": 1498653495,
 			"isDeleted": false,
 			"id": "U6oIk3Jdja90f9418K6Pn",
 			"fillStyle": "hachure",
@@ -1122,17 +1122,17 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 100.56146797628503,
-			"y": 214.10346845333046,
+			"x": 100.54530044848653,
+			"y": 214.10346845333044,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
-			"width": 8.357404085648284,
-			"height": 70.2843096619778,
+			"width": 8.259337394807545,
+			"height": 70.28430966197783,
 			"seed": 1555050297,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050448655,
+			"updated": 1666124090555,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1154,15 +1154,15 @@ Signed State CID ^w8HzKW3L
 					0
 				],
 				[
-					8.357404085648284,
-					70.2843096619778
+					8.259337394807545,
+					70.28430966197783
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1308,
-			"versionNonce": 971637241,
+			"version": 1309,
+			"versionNonce": 1812748601,
 			"isDeleted": false,
 			"id": "cgBcyHJbmUhm2wP_xtQfX",
 			"fillStyle": "hachure",
@@ -1172,7 +1172,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -363.58164766792765,
-			"y": 349.9214004434204,
+			"y": 349.7733741276309,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 169,
@@ -1200,14 +1200,14 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050441789,
+			"updated": 1666124099270,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1266,
-			"versionNonce": 1914787703,
+			"version": 1272,
+			"versionNonce": 1151623703,
 			"isDeleted": false,
 			"id": "25ev3aWv",
 			"fillStyle": "hachure",
@@ -1217,7 +1217,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -358.58164766792765,
-			"y": 354.9214004434204,
+			"y": 354.7733741276309,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 157,
@@ -1228,23 +1228,23 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050423369,
+			"updated": 1666124102158,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "LigoAgreementState\ntime: 1",
-			"rawText": "LigoAgreementState time: 1",
+			"text": "LigoAgreementState\nnonce: 1",
+			"rawText": "LigoAgreementState nonce: 1",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "cgBcyHJbmUhm2wP_xtQfX",
-			"originalText": "LigoAgreementState time: 1"
+			"originalText": "LigoAgreementState nonce: 1"
 		},
 		{
 			"type": "text",
-			"version": 1029,
-			"versionNonce": 1021001593,
+			"version": 1030,
+			"versionNonce": 216888505,
 			"isDeleted": false,
 			"id": "m9W2j2K2",
 			"fillStyle": "hachure",
@@ -1254,7 +1254,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -360.94812739486565,
-			"y": 323.24105300079344,
+			"y": 323.09302668500396,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 133,
@@ -1270,7 +1270,7 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050423369,
+			"updated": 1666124099271,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1285,8 +1285,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "line",
-			"version": 1487,
-			"versionNonce": 18174103,
+			"version": 1488,
+			"versionNonce": 442240855,
 			"isDeleted": false,
 			"id": "ZLsoQxqJX5dQvqdY4p__f",
 			"fillStyle": "solid",
@@ -1296,7 +1296,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -368.3803759310265,
-			"y": 348.8457317163482,
+			"y": 348.69770540055873,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 10.48311724415064,
@@ -1308,7 +1308,7 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050423369,
+			"updated": 1666124099271,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1361,8 +1361,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "rectangle",
-			"version": 1083,
-			"versionNonce": 1108797529,
+			"version": 1084,
+			"versionNonce": 1420850585,
 			"isDeleted": false,
 			"id": "IGHnikCoEimO10Y3_Wye0",
 			"fillStyle": "solid",
@@ -1372,7 +1372,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -371.19851057997585,
-			"y": 349.07220789739296,
+			"y": 348.9241815816035,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 13.694889579115054,
@@ -1384,14 +1384,14 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050423369,
+			"updated": 1666124099271,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 1091,
-			"versionNonce": 1030563255,
+			"version": 1092,
+			"versionNonce": 1693322359,
 			"isDeleted": false,
 			"id": "LJOq-w1EsISZ5rPoRJiok",
 			"fillStyle": "solid",
@@ -1401,7 +1401,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -365.4657661049971,
-			"y": 353.2125233515441,
+			"y": 353.06449703575464,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 2.8663722374891734,
@@ -1413,7 +1413,7 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050423369,
+			"updated": 1666124099271,
 			"link": null,
 			"locked": false
 		},
@@ -1456,8 +1456,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "text",
-			"version": 1410,
-			"versionNonce": 105731799,
+			"version": 1415,
+			"versionNonce": 1905034713,
 			"isDeleted": false,
 			"id": "wVGf9fRS",
 			"fillStyle": "hachure",
@@ -1478,18 +1478,18 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050423369,
+			"updated": 1666124106309,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "LigoAgreementState\ntime: 0",
-			"rawText": "LigoAgreementState time: 0",
+			"text": "LigoAgreementState\nnonce: 0",
+			"rawText": "LigoAgreementState nonce: 0",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "jeq7eGFjREmGPLLL3BxTA",
-			"originalText": "LigoAgreementState time: 0"
+			"originalText": "LigoAgreementState nonce: 0"
 		},
 		{
 			"type": "text",
@@ -1669,8 +1669,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 644,
-			"versionNonce": 67377625,
+			"version": 656,
+			"versionNonce": 57018455,
 			"isDeleted": false,
 			"id": "QuS_aVXq7dWfCvR2kHQyO",
 			"fillStyle": "hachure",
@@ -1679,17 +1679,17 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 47.2010283331533,
-			"y": 376.0996844962588,
+			"x": 47.05300201736384,
+			"y": 376.0683513562634,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 234.51688870710507,
-			"height": 13.41435329797116,
+			"width": 234.36886239131564,
+			"height": 13.32686992611508,
 			"seed": 1522560919,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467460,
+			"updated": 1666124102993,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1711,15 +1711,15 @@ Signed State CID ^w8HzKW3L
 					0
 				],
 				[
-					-234.51688870710507,
-					13.41435329797116
+					-234.36886239131564,
+					13.32686992611508
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 100,
-			"versionNonce": 412081273,
+			"version": 110,
+			"versionNonce": 46506905,
 			"isDeleted": false,
 			"id": "rxZBk2ICmroy4PVxlb2-E",
 			"fillStyle": "hachure",
@@ -1729,16 +1729,16 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -374.51898537395186,
-			"y": 401.4913829721069,
+			"y": 401.39632860841255,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 51.65234375,
-			"height": 0.3359375,
+			"height": 0.30652999785525026,
 			"seed": 57751897,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467461,
+			"updated": 1666124106795,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1761,7 +1761,7 @@ Signed State CID ^w8HzKW3L
 				],
 				[
 					-51.65234375,
-					-0.3359375
+					-0.30652999785525026
 				]
 			]
 		},
@@ -1907,8 +1907,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 202,
-			"versionNonce": 71143799,
+			"version": 203,
+			"versionNonce": 1725810839,
 			"isDeleted": false,
 			"id": "kPd9fvBiNgQRPHR3brLYM",
 			"fillStyle": "hachure",
@@ -1927,7 +1927,7 @@ Signed State CID ^w8HzKW3L
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467457,
+			"updated": 1666124089201,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2078,8 +2078,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "arrow",
-			"version": 486,
-			"versionNonce": 1103036119,
+			"version": 487,
+			"versionNonce": 1648745463,
 			"isDeleted": false,
 			"id": "U9kqjxiRilzuRaDaXxA_S",
 			"fillStyle": "hachure",
@@ -2093,12 +2093,12 @@ Signed State CID ^w8HzKW3L
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 218.24199247034187,
-			"height": 10.508476171426679,
+			"height": 10.50847617142665,
 			"seed": 221653143,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050499322,
+			"updated": 1666124089203,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2108,8 +2108,8 @@ Signed State CID ^w8HzKW3L
 			},
 			"endBinding": {
 				"elementId": "TndkB6caJyjJPgudOOL94",
-				"focus": -0.08353257590018243,
-				"gap": 9.915631479076353
+				"gap": 9.915631479076353,
+				"focus": -0.08353257590018243
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2125,7 +2125,7 @@ Signed State CID ^w8HzKW3L
 				],
 				[
 					218.24199247034187,
-					10.508476171426679
+					10.50847617142665
 				]
 			]
 		},
@@ -2171,8 +2171,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "rectangle",
-			"version": 1506,
-			"versionNonce": 1466621593,
+			"version": 1508,
+			"versionNonce": 1069953817,
 			"isDeleted": false,
 			"id": "D6bCUMiXjXUUE-LqQyW-P",
 			"fillStyle": "hachure",
@@ -2182,7 +2182,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -26.162271668975905,
-			"y": 463.7737674713135,
+			"y": 463.4777148397345,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 169,
@@ -2206,14 +2206,14 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050453194,
+			"updated": 1666124094499,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1463,
-			"versionNonce": 227749015,
+			"version": 1470,
+			"versionNonce": 560083831,
 			"isDeleted": false,
 			"id": "mUjnQFd0",
 			"fillStyle": "hachure",
@@ -2223,7 +2223,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -21.162271668975905,
-			"y": 468.7737674713135,
+			"y": 468.4777148397345,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 157,
@@ -2234,23 +2234,23 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050453194,
+			"updated": 1666124098177,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "LigoAgreementState\ntime: 2",
-			"rawText": "LigoAgreementState time: 2",
+			"text": "LigoAgreementState\nnonce: 2",
+			"rawText": "LigoAgreementState nonce: 2",
 			"baseline": 34,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": "D6bCUMiXjXUUE-LqQyW-P",
-			"originalText": "LigoAgreementState time: 2"
+			"originalText": "LigoAgreementState nonce: 2"
 		},
 		{
 			"type": "text",
-			"version": 1231,
-			"versionNonce": 1306730871,
+			"version": 1232,
+			"versionNonce": 363759289,
 			"isDeleted": false,
 			"id": "xVHneBhk",
 			"fillStyle": "hachure",
@@ -2260,7 +2260,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -23.8060951459139,
-			"y": 437.0934200286865,
+			"y": 436.94539371289704,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
 			"width": 133,
@@ -2280,7 +2280,7 @@ Signed State CID ^w8HzKW3L
 					"type": "arrow"
 				}
 			],
-			"updated": 1666050483587,
+			"updated": 1666124093865,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2295,8 +2295,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "line",
-			"version": 1688,
-			"versionNonce": 902791607,
+			"version": 1689,
+			"versionNonce": 682449527,
 			"isDeleted": false,
 			"id": "w_CxiF6wk2s3dQk_xgPQN",
 			"fillStyle": "solid",
@@ -2306,7 +2306,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -31.238343682074742,
-			"y": 462.6980987442413,
+			"y": 462.5500724284518,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 10.48311724415064,
@@ -2318,7 +2318,7 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050453194,
+			"updated": 1666124093865,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2371,8 +2371,8 @@ Signed State CID ^w8HzKW3L
 		},
 		{
 			"type": "rectangle",
-			"version": 1284,
-			"versionNonce": 1915476281,
+			"version": 1285,
+			"versionNonce": 121957497,
 			"isDeleted": false,
 			"id": "WpXmAF2FkhJoVTsY92F_S",
 			"fillStyle": "solid",
@@ -2382,7 +2382,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -34.056478331024095,
-			"y": 462.92457492528604,
+			"y": 462.77654860949656,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 13.694889579115054,
@@ -2394,14 +2394,14 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050453194,
+			"updated": 1666124093865,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 1292,
-			"versionNonce": 2047095511,
+			"version": 1293,
+			"versionNonce": 757658519,
 			"isDeleted": false,
 			"id": "paTCBsbwB--MFVGt65DkR",
 			"fillStyle": "solid",
@@ -2411,7 +2411,7 @@ Signed State CID ^w8HzKW3L
 			"opacity": 100,
 			"angle": 0,
 			"x": -28.32373385604535,
-			"y": 467.0648903794372,
+			"y": 466.9168640636477,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
 			"width": 2.8663722374891734,
@@ -2423,14 +2423,14 @@ Signed State CID ^w8HzKW3L
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1666050453194,
+			"updated": 1666124093865,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 194,
-			"versionNonce": 1462756697,
+			"version": 208,
+			"versionNonce": 1780686487,
 			"isDeleted": false,
 			"id": "X4E2TqYB-oX574mla_2pR",
 			"fillStyle": "hachure",
@@ -2439,17 +2439,17 @@ Signed State CID ^w8HzKW3L
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -33.320312499999986,
-			"y": 508.58116459512394,
+			"x": -33.320312500000014,
+			"y": 508.308939555044,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "#15aabf",
-			"width": 145.421875,
-			"height": 95.05723594290453,
+			"width": 145.42187499999994,
+			"height": 94.97020915162017,
 			"seed": 1496519191,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1666050467462,
+			"updated": 1666124102993,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2471,8 +2471,8 @@ Signed State CID ^w8HzKW3L
 					0
 				],
 				[
-					-145.421875,
-					-95.05723594290453
+					-145.42187499999994,
+					-94.97020915162017
 				]
 			]
 		},
@@ -2556,41 +2556,30 @@ Signed State CID ^w8HzKW3L
 			"originalText": "Signed State CID"
 		},
 		{
-			"id": "bTifGztBSTyWM5f2vrqFG",
 			"type": "arrow",
-			"x": -6.654605263157805,
-			"y": 424.0183601138932,
-			"width": 85.95805921052636,
-			"height": 194.6875,
-			"angle": 0,
-			"strokeColor": "#0b7285",
-			"backgroundColor": "#15aabf",
+			"version": 121,
+			"versionNonce": 125781913,
+			"isDeleted": false,
+			"id": "bTifGztBSTyWM5f2vrqFG",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dashed",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -6.6629813312905455,
+			"y": 423.8703337981038,
+			"strokeColor": "#0b7285",
+			"backgroundColor": "#15aabf",
+			"width": 85.94381672878353,
+			"height": 194.53947368421058,
+			"seed": 535744985,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 535744985,
-			"version": 119,
-			"versionNonce": 1044643417,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1666050485044,
+			"boundElements": [],
+			"updated": 1666124093865,
 			"link": null,
 			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-85.95805921052636,
-					-194.6875
-				]
-			],
-			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "xVHneBhk",
 				"focus": -0.5522153698172761,
@@ -2601,8 +2590,19 @@ Signed State CID ^w8HzKW3L
 				"focus": -0.193286529282389,
 				"gap": 10.394736842105317
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-85.94381672878353,
+					-194.53947368421058
+				]
+			]
 		}
 	],
 	"appState": {
