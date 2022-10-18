@@ -10,6 +10,10 @@ A **challenge** is filed with the Ligo Safe Module and the IPFS CID of the **pro
 
 ![Force a State Change.excalidraw](../../drawings/Force%20a%20State%20Change.excalidraw.svg)
 
+For _public_ state, a challenge can also be submitted with the state change directly part of the transaction.
+
+![Force a State Change 5.excalidraw](../../drawings/Force%20a%20State%20Change%205.excalidraw.svg)
+
 ## 2a. Challenge Window Expires
 
 If the challenge window expires without a response from the other party, a third party steps in to resolve the state. See [Resolving State](./Resolving%20State).
