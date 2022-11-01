@@ -20,6 +20,10 @@ function HomepageHeader() {
           economy by creating an open platform that allows anyone to create
           diverse sharing solutions.
         </p>
+        <p className="hero__subtitle">
+          Our initial focus is on car sharing. Join the waitlist to be notified
+          when we have something to share.
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
