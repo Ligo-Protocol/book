@@ -8,25 +8,37 @@ In order to come to an agreement, parties need to interact in some way. [DIDComm
 
 Base Message URI: `https://ligo.dev/didcomm`
 
-### ResponseToOffer
+### ProposeAgreement
+Propose an agreement to another party. There can be multiple proposals and a back and forth exchange. All future proposals should share the same thread ID (`thid`).
 
 ```json
 {
 	"id": "<UUID>",
-    "type": "https://ligo.dev/didcomm/ResponseToOffer",
+	"thid": "<Thread ID of chain of proposals>",
+    "type": "https://ligo.dev/didcomm/ProposeAgreement",
     "lang": "en",
     "created_time": 1547577721,
     "body": {
-        "offer": "<id of offer>",
-        "agreementKey": "<symmetric key to encrypt attached agreement>"
+        "offer": "<URI of offer>",
+        "agreementCid": "<CID of proposed agreement>",
+        "agreementKey": "<symmetric key to encrypt attached agreement>",
+        "safeTransactionHash": "<hash of Safe transaction>",
+        "safeTransactionSignatures": []
     },
     "attachments": [
 	    {
-	      "id": "<agreement cid>",
-	      "description": "A LigoAgreement",
+	      "id": "<CID of agreement>",
 	      "data": {
 	        "base64": "<base64 encoded CAR of DAG-JOSE encoded agreement>"
 	      }
+	    },
+	    {
+		  "id": "<SafeTransaction hash>",
+		  "data": {
+		    "json": {
+		      // SafeTransactionData
+		    }
+		  }
 	    }
     ]
 }
@@ -34,5 +46,4 @@ Base Message URI: `https://ligo.dev/didcomm`
 
 ---
 ### To Do
-- Counter offers using threads
 - Other message types
