@@ -10,13 +10,12 @@ Propose an agreement to another party. There can be multiple proposals and a bac
     "body": {
         "offer": "<URI of offer>",
         "agreement": { "/": "<CID of proposed agreement>" },
-        "agreementKey": "<symmetric key to encrypt attached agreement>",
         "safeTransactionData": { "/": "<CID of SafeTransactionData>" },
-        "safeTransactionSignatures": []
+        "safeTransactionSignatures": {}
     },
     "attachments": [
 	    {
-	      "id": "<CID of agreement>",
+	      "id": "<CID of encrypted agreement>",
 	      "data": {
 	        "base64": "<base64 encoded block of encrypted agreement>"
 	      }
@@ -28,6 +27,21 @@ Propose an agreement to another party. There can be multiple proposals and a bac
 		  }
 	    }
     ]
+}
+```
+
+```ipldsch
+type SafeTransactionData Map
+type SafeSignature struct {
+	signer String
+	data String
+}
+
+type ProposeAgreement struct {  
+	offer String
+	agreement &DagJWE
+	safeTransactionData &SafeTransactionData
+	safeTransactionSignatures {String:SafeSignature}
 }
 ```
 

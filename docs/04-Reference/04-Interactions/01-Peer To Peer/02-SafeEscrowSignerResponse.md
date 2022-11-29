@@ -12,3 +12,11 @@ Response to [SafeEscrowSignerRequest](./SafeEscrowSignerRequest)
     }
 }
 ```
+
+```ipldsch
+type AccountID string
+
+type SafeEscrowSignerRequest struct {  
+	signerAccountId AccountID
+}
+```

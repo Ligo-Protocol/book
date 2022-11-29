@@ -6,5 +6,6 @@ Request the signer to use for making agreements with the sender. Should be calle
 {
 	"id": "<UUID>",
     "type": "https://ligo.dev/didcomm/peer/1.0/safe-escrow-signer-request",
+    "body": {}
 }
 ```
