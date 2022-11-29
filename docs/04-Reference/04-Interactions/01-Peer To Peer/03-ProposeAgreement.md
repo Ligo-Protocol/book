@@ -1,4 +1,4 @@
-Message URI: `https://ligo.dev/didcomm/1.0/propose-agreement`
+Message URI: `https://ligo.dev/didcomm/peer/1.0/propose-agreement`
 
 Propose an agreement to another party. There can be multiple proposals and a back and forth exchange. All future proposals should share the same thread ID (`thid`).
 
@@ -6,9 +6,7 @@ Propose an agreement to another party. There can be multiple proposals and a bac
 {
 	"id": "<UUID>",
 	"thid": "<Thread ID of chain of proposals>",
-    "type": "https://ligo.dev/didcomm/1.0/propose-agreement",
-    "lang": "en",
-    "created_time": 1547577721,
+    "type": "https://ligo.dev/didcomm/peer/1.0/propose-agreement",
     "body": {
         "offer": "<URI of offer>",
         "agreement": { "/": "<CID of proposed agreement>" },
