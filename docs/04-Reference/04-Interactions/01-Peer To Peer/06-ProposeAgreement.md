@@ -8,7 +8,7 @@ Propose an agreement to another party. There can be multiple proposals and a bac
 	"thid": "<Thread ID of chain of proposals>",
     "type": "https://ligo.dev/didcomm/peer/1.0/propose-agreement",
     "body": {
-        "offer": "<URI of offer>",
+        "offer": { "/": "<CID of offer>" },
         "agreement": { "/": "<CID of proposed agreement>" },
         "safeTransactionData": { "/": "<CID of SafeTransactionData>" },
         "safeTransactionSignatures": {}
@@ -31,6 +31,7 @@ Propose an agreement to another party. There can be multiple proposals and a bac
 ```
 
 ```ipldsch
+type Offer ...
 type SafeTransactionData Map
 type SafeSignature struct {
 	signer String
@@ -38,7 +39,7 @@ type SafeSignature struct {
 }
 
 type ProposeAgreement struct {  
-	offer String
+	offer &Offer
 	agreement &DagJWE
 	safeTransactionData &SafeTransactionData
 	safeTransactionSignatures {String:SafeSignature}
@@ -46,5 +47,4 @@ type ProposeAgreement struct {
 ```
 
 ### Open Questions
-- Offer as CID?
 - Convert attachments to CAR?
