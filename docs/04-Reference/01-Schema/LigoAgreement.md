@@ -3,10 +3,15 @@ Defines an agreement between two parties to use a vehicle.
 
 ![LigoAgreement 2022-08-15 14.14.24.excalidraw](../../drawings/LigoAgreement%202022-08-15%2014.14.24.excalidraw.svg)
 
-| Property      | Description                          | Type                                          |
-| ------------- | ------------------------------------ | ---------------------------------------------- |
-| `order`       | The order that started the agreement | [Order](./Order)                               |
-| `reservation` | Details of the reservation           | [RentalCarReservation](./RentalCarReservation) |
+```ipldsch
+type LigoAgreement struct {  
+	# The order that started the agreement
+	order &Order
+
+	# Details of the reservation
+	reservation &RentalCarReservation
+}
+```
 
 ## Usage
 The `LigoAgreement` contains two sides of an agreement. An `order` defines the payment being provided by a customer to a seller and a `reservation` defines the service being provided by a seller to a customer.

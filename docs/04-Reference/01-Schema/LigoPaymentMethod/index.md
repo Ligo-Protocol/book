@@ -1,7 +1,13 @@
 # LigoPaymentMethod
 An enumeration defining the different payment methods accepted in Ligo.
 
-**Subclass Of**: [https://schema.org/PaymentMethod](https://schema.org/PaymentMethod)
+```ipldsch
+type LigoPaymentMethod union {
+	| LigoSafeEscrow "LigoSafeEscrow"
+} representation inline {
+	discriminantKey "method"
+}
+```
 
 ## Values
 - [LigoSafeEscrow](./LigoSafeEscrow)
