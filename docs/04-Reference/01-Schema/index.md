@@ -30,4 +30,18 @@ type QuantitativeValue struct {
 	unitText optional String
 	value optional Float
 }
+
+type EncodingImage enum {
+	| Gif ("image/gif")
+	| Jpeg ("image/jpeg")
+	| Png ("image/png")
+	| Svg ("image/svg+xml")
+}
+
+type ImageObject struct {
+  name optional String
+  content &Bytes
+  contentSize optional Int
+  encodingFormat EncodingImage
+}
 ```

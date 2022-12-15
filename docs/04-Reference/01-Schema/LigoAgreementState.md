@@ -10,7 +10,7 @@ type LigoAgreementState struct {
 	startOdometer optional QuantitativeValue
 
 	# The location of the vehicle at the start of the trip
-	startLocation GeoCoordinates
+	startLocation optional GeoCoordinates
 
 	# The level of the fuel tank or in the case of electric cars, the battery, at the end of the trip
 	endFuelLevel optional QuantitativeValue
@@ -19,7 +19,7 @@ type LigoAgreementState struct {
 	endOdometer optional QuantitativeValue
 
 	# The location of the vehicle at the end of the trip
-	endLocation GeoCoordinates
+	endLocation optional GeoCoordinates
 }
 ```
 

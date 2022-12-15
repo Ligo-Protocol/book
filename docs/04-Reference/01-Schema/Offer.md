@@ -2,20 +2,6 @@
 An Offer represents an offer from a vehicle owner to rent out a vehicle.
 
 ```ipldsch
-type EncodingImage enum {
-	| Gif ("image/gif")
-	| Jpeg ("image/jpeg")
-	| Png ("image/png")
-	| Svg ("image/svg+xml")
-}
-
-type ImageObject struct {
-  name optional String
-  content &Bytes
-  contentSize optional Int
-  encodingFormat EncodingImage
-}
-
 type Offer struct {  
 	# Description of the offer
 	description String

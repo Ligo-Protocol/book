@@ -16,7 +16,7 @@ type LigoSafeEscrow struct {
 	sellerSignerAccountId AccountID
 
 	# Amount to pay deployer of Safe. Equivalent to `payment` in `SafeAccountConfig`
-	deploymentPaymentAmount Integer
+	deploymentPaymentAmount Int
 
 	# Receiver of payment to deploy Safe. Equivalent to `paymentReceiver` in `SafeAccountConfig`
 	deploymentPaymentReceiver AccountID
