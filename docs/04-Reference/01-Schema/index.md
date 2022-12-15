@@ -1,3 +1,6 @@
+---
+title: "Schema"
+---
 
 ```ipldsch
 type Date string
