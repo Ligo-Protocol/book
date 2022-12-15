@@ -3,7 +3,7 @@ title: "Request a Booking"
 ---
 
 ## 1. Renter requests a booking
-A booking is created by the renter first creating a [LigoAgreement](../../Reference/Vocabulary/LigoAgreement). This should be generated from the vehicle offer to ensure it meets the baseline requirements set by a host.
+A booking is created by the renter first creating a [LigoAgreement](../../Reference/Schema/LigoAgreement). This should be generated from the vehicle offer to ensure it meets the baseline requirements set by a host.
 
 The renter then creates a Safe with themself as the sole signer and deposits the initial amount of funds specified in the agreement.
 

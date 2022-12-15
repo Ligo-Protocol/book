@@ -1,5 +1,5 @@
 # Encryption and Decryption
-The [LigoAgreement](LigoAgreement.md) and [LigoAgreementState](LigoAgreementState.md) objects are stored in IPFS using the [DAG-JOSE](https://ipld.io/specs/codecs/dag-jose/spec/) codec. They are signed by both parties and encrypted.
+The [LigoAgreement](../Schema/LigoAgreement) and [LigoAgreementState](../Schema/LigoAgreementState) objects are stored in IPFS using the [DAG-JOSE](https://ipld.io/specs/codecs/dag-jose/spec/) codec. They are signed by both parties and encrypted.
 
 This document describes how the encryption and decryption of these objects works.
 
